@@ -1,0 +1,6 @@
+/node_modules
+Resume.pdf
+.DS_Store
+.env
+sample_resume_output.png
+/client
