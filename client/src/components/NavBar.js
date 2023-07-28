@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Menu as MenuIcon } from "@mui/icons-material";
 
-import MenuIcon from "@material-ui/icons/Menu";
 import {
   makeStyles,
   AppBar,

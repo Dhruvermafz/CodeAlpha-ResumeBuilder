@@ -18,14 +18,15 @@ import {
 
 import axios from "axios";
 import { saveAs } from "file-saver";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import {
+  NavigateNext as NavigateNextIcon,
+  NavigateBefore as NavigateBeforeIcon,
+  CheckCircle as CheckCircleIcon,
+  GetApp as GetAppIcon,
+  Close as CloseIcon,
+} from "@mui/icons-material";
 
-import GetAppIcon from "@material-ui/icons/GetApp";
 import { Row, Col } from "react-bootstrap";
-
-import CloseIcon from "@mui/icons-material/Close";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;

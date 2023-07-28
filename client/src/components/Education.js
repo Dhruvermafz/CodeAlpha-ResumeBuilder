@@ -13,13 +13,15 @@ import {
   Paper,
   withStyles,
   Grid,
+  Alert as MuiAlert,
 } from "@mui/material";
+import {
+  NavigateBefore as NavigateBeforeIcon,
+  NavigateNext as NavigateNextIcon,
+  Close as CloseIcon,
+} from "@mui/icons-material";
 
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import { Row, Col } from "react-bootstrap";
-import CloseIcon from "@mui/icons-material/Close";
-import MuiAlert from "@mui/material/Alert";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;

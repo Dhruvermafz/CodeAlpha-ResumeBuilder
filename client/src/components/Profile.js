@@ -14,17 +14,18 @@ import {
   Alert as MuiAlert,
   InputAdornment,
 } from "@mui/material";
-
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import LanguageIcon from "@material-ui/icons/Language";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import {
+  NavigateNext as NavigateNextIcon,
+  NavigateBefore as NavigateBeforeIcon,
+  Email as EmailIcon,
+  Phone as PhoneIcon,
+  Language as LanguageIcon,
+  GitHub as GitHubIcon,
+  LinkedIn as LinkedInIcon,
+  Twitter as TwitterIcon,
+  Facebook as FacebookIcon,
+  Instagram as InstagramIcon,
+} from "@mui/icons-material";
 
 import { Row, Col } from "react-bootstrap";
 

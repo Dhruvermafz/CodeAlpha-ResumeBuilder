@@ -14,16 +14,16 @@ import {
   Alert as MuiAlert,
   InputAdornment,
 } from "@mui/material";
-
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import LinkIcon from "@material-ui/icons/Link";
-import TitleIcon from "@material-ui/icons/Title";
-import DescriptionIcon from "@material-ui/icons/Description";
+import {
+  NavigateNext as NavigateNextIcon,
+  NavigateBefore as NavigateBeforeIcon,
+  Link as LinkIcon,
+  Title as TitleIcon,
+  Description as DescriptionIcon,
+  Close as CloseIcon,
+} from "@mui/icons-material";
 
 import { Row, Col } from "react-bootstrap";
-
-import CloseIcon from "@mui/icons-material/Close";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;

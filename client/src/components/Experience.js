@@ -15,18 +15,18 @@ import {
   InputAdornment,
   Alert as MuiAlert,
 } from "@mui/material";
-
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import DescriptionIcon from "@material-ui/icons/Description";
-import CheckCircleIcon from "@material-ui/icons/CheckCircle";
-import TimelapseIcon from "@material-ui/icons/Timelapse";
-import EventSeatIcon from "@material-ui/icons/EventSeat";
-import BusinessIcon from "@material-ui/icons/Business";
+import {
+  NavigateNextIcon as NavigateNextIcon,
+  NavigateBefore as NavigateBeforeIcon,
+  Description as DescriptionIcon,
+  CheckCircle as CheckCircleIcon,
+  Timelapse as TimelapseIcon,
+  EventSeat as EventSeatIcon,
+  Business as BusinessIcon,
+  Close as CloseIcon,
+} from "@mui/icons-material";
 
 import { Row, Col } from "react-bootstrap";
-
-import CloseIcon from "@mui/icons-material/Close";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
