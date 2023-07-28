@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Resume Builder Application using ReactJS(frontend) and NodeJS(backend)",
   "main": "server.js",
+  
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
@@ -29,5 +30,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "engines": {
+    "node": ">=14 <15"
+    }
+  
 }
+
