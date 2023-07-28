@@ -1,6 +1,20 @@
 import React, { Component } from "react";
-import { TextField, Button, Container } from "@material-ui/core";
-import { Card, CardHeader, CardContent } from "@material-ui/core";
+import {
+  TextField,
+  Button,
+  Container,
+  Card,
+  CardHeader,
+  CardContent,
+  Paper,
+  withStyles,
+  Grid,
+  Snackbar,
+  IconButton,
+  Alert as MuiAlert,
+  InputAdornment,
+} from "@mui/material";
+
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 import EmailIcon from "@material-ui/icons/Email";
@@ -11,13 +25,10 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import InputAdornment from "@material-ui/core/InputAdornment";
+
 import { Row, Col } from "react-bootstrap";
-import { Paper, withStyles, Grid } from "@material-ui/core";
-import Snackbar from "@material-ui/core/Snackbar";
-import IconButton from "@material-ui/core/IconButton";
+
 import CloseIcon from "@mui/icons-material/Close";
-import MuiAlert from "@mui/material/Alert";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
