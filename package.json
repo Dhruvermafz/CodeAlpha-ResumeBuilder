@@ -16,7 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "concurrently": "^7.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -24,6 +23,7 @@
     "html-pdf": "^3.0.1",
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.7.0",
+    "mongosh": "^1.10.1",
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {

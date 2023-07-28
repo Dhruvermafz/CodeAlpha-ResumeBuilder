@@ -61,7 +61,10 @@ const verifyGoogleToken = async (token) => {
 app.post("/verifyToken", (req, res) => {
   const token = req.body.token;
   jwt.verify(token, process.env.GOOGLE_CLIENT_SECRET, (err, decodedToken) => {
-    if (err && (err.name === "TokenExpiredError" || err.name === "JsonWebTokenError")) {
+    if (
+      err &&
+      (err.name === "TokenExpiredError" || err.name === "JsonWebTokenError")
+    ) {
       res.status(401).json({
         message: err,
       });
